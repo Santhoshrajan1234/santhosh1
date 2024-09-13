@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repository-url.git'
+                git 'https://github.com/Santhoshrajan1234/santhosh1/tree/master.git'
             }
         }
         stage('Build') {
@@ -19,8 +19,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                // Add deployment script or steps here
-                echo 'Deploying application...'
+                
+                
             }
         }
     }
